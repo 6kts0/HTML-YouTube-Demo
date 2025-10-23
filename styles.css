@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .tu {
     background-color: rgba(68, 68, 68, 0.795);
     color: white;
@@ -66,3 +67,44 @@
     display: flex;
     margin-left: 12px;
 }
+=======
+.tu {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    height: 10px;
+
+    width: 60px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    cursor: pointer;
+}
+
+
+.like-count {
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        border-radius: 20px;
+        font-family: sans-serif;
+        font-size: 10px;
+        margin-left: 7.5px;
+}
+
+
+.td {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px; 
+    padding-right: 0px 0px;
+    margin-left: 9px;
+    display: flex;
+
+    cursor: pointer;
+}
+>>>>>>> e9c4e1c5cb02396a0088f5d01c5abf5b54b7110e
