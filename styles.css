@@ -1,110 +1,157 @@
-<<<<<<< HEAD
-.tu {
-    background-color: rgba(68, 68, 68, 0.795);
-    color: white;
-    border: none;
-    border-radius: 20px;
-    padding: 10px 15px;
-    height: 10px;
-
-    width: 73px;
-    margin-right: 10px;
-    margin-left: 1px; 
+.align-subscribe-button {
+    background-color: rgba(255, 235, 205, 0);
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-
-    font-size: 13px;
 
 
-    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 8;
+}
+
+
+.reaction-box {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+ 
+    background-color: rgb(37, 37, 37);
+    border-radius: 30px; 
+    width: 112px;
+    height: 29px;
+
+    margin-left: 10px;
+    padding-top: 3px;
+}
+
+
+
+.like-count-group {
+    display: flex;
+    align-items: center;
+    background-color: none;
+    justify-content: center;
+    
+    
+}
+
+.profile-username {
+    background-color: None;
+                color: White;                  
+                    font-family: sans-serif;
+                        font-weight: 500;
+                        font-size: 9.65pt;
+                     
+                        margin-top: 0px;
+                        margin-bottom: 7px; 
+}   
+
+
+.sub-butt {
+    background-color: rgb(37, 37, 37);
+    color: rgb(19, 19, 19);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: sans-serif;
+    font-size: 11px;
+    
+    border: none;
+    border-radius: 30px;
+    
+
+    width: 80px;
+    height: 30px;
+
+    margin-left: 12px;
+    margin-right: 20px;  
 }
 
 
 .like-count {
-        background-color: rgba(0, 0, 0, 0);
-        border: none;
-        border-radius: 20px;
-        margin-left: 7.2px;
+    background-color: rgba(85, 61, 61, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
 
-        font-family: sans-serif;
-        font-size: 10px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    
+    margin-left: 1px;
 }
 
 
-.td {
-    background-color: rgba(49, 49, 49, 0);
-    color: white;
+.fa.fa-thumbs-up {
+    background-color: rgba(59, 59, 59, 0);
+    color: rgb(255, 255, 255);
     border: none;
-    border-radius: 20px;
-    
-    font-size: 14px;
+    border-radius: 30px;
 
-    padding-right: 0px 0px;
-    margin-left: 7px;
     display: flex;
+    justify-content: center;
+    
+    padding: 0px 0px 0px 0px;
+    width: 35px;
+    height: 20px;
+
+    margin-right: 1px;
+    
 
     cursor: pointer;
-} 
+}
+
+
+.fa.fa-thumbs-down {
+    background-color: rgba(59, 59, 59, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    
+    padding: 0px 0px 0px 0px;
+    width: 35px;
+    height: 20px;
+
+    cursor: pointer;
+}
 
 
 .vid-stats {
     background-color: None;
-        color: White; 
-        font-family: sans-serif;
-        font-weight: bold;
-        font-size: 9.65pt;
+    color: White; 
+    border: none;
+
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 10pt;
         
-        display: flex;
-        margin-bottom: 8.2px;
+    margin-bottom: 8.2px;
 }
 
-.line-split {
+
+.descript-head {
     background-color: none;
-    color: rgb(34, 34, 34);
-    font-size: 14px;
-    
-    display: flex;
-    margin-left: 12px;
-}
-=======
-.tu {
-    background-color: red;
     color: white;
     border: none;
-    border-radius: 20px;
-    padding: 10px 15px;
-    height: 10px;
 
-    width: 60px;
-    margin-right: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 9.65px;
 
-    cursor: pointer;
+    margin-bottom: 25px;
 }
 
 
-.like-count {
-        background-color: rgba(0, 0, 0, 0);
-        border: none;
-        border-radius: 20px;
-        font-family: sans-serif;
-        font-size: 10px;
-        margin-left: 7.5px;
-}
-
-
-.td {
-    background-color: red;
+.descript-body {
+    background-color: none;
     color: white;
     border: none;
-    border-radius: 20px; 
-    padding-right: 0px 0px;
-    margin-left: 9px;
-    display: flex;
 
-    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 9.65px;
+
+    margin-bottom: 10px;
 }
->>>>>>> e9c4e1c5cb02396a0088f5d01c5abf5b54b7110e
